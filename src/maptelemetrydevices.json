@@ -1,0 +1,13 @@
+{
+  "NameSpace": "larouex-smart-kitchen-HVAC",
+  "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
+  "nodes": [
+    {
+      "Name": "HVAC",
+      "nodeId": "ns=2;i=1",
+      "InterfacelId": "urn:larouexsmartkitchen:HVACInterface:1",
+      "InterfaceInstanceName": "HVACInterface",
+      "Variables": []
+    }
+  ]
+}

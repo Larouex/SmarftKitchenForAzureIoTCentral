@@ -1,0 +1,62 @@
+{
+  "@id": "urn:LarouexSmartKitchen:WalkinFridge:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:WalkinFridge:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "WalkinFridgeInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:WalkinFridgeInterface:1",
+        "@type": "Interface",
+        "displayName": "WalkinFridge",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Temperature"
+            },
+            "name": "walkin_fridge_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Humidity"
+            },
+            "name": "walkin_fridge_humidity",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Door Open Count"
+            },
+            "name": "walkin_fridge_door_open_count",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Door Ajar"
+            },
+            "name": "walkin_fridge_door_ajar",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Compressor Health"
+            },
+            "name": "walkin_fridge_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

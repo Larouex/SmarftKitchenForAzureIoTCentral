@@ -1,0 +1,54 @@
+{
+  "@id": "urn:LarouexSmartKitchen:Dishwasher:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:Dishwasher:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "DishwasherInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:DishwasherInterface:1",
+        "@type": "Interface",
+        "displayName": "Dishwasher",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Temperature"
+            },
+            "name": "dishwasher_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Wash Cycles"
+            },
+            "name": "dishwasher_wash_cycles",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Motor Health"
+            },
+            "name": "dishwasher_motor_health",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Heating Element Health"
+            },
+            "name": "dishwasher_heating_element_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "@id": "urn:LarouexSmartKitchen:Server:1",
+  "@type": "CapabilityModel",
+  "displayName": "Larouex Smart Kitchen Server",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "AmbientInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:AmbientInterface:1",
+        "@type": "Interface",
+        "displayName": "Ambient",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Outside Temperature"
+            },
+            "name": "outside_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Outside Humidity"
+            },
+            "name": "outside_humidity",
+            "schema": "float"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "HVACInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:HVACInterface:1",
+        "@type": "Interface",
+        "displayName": "HVAC",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "HVAC Airflow Temperature"
+            },
+            "name": "hvac_airflow_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "HVAC Airflow CFM"
+            },
+            "name": "hvac_cfm_airflow",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "HVAC Main Motor RPM"
+            },
+            "name": "hvac_rpm_mainmotor",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "WalkinFridgeInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:WalkinFridgeInterface:1",
+        "@type": "Interface",
+        "displayName": "WalkinFridge",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Temperature"
+            },
+            "name": "walkin_fridge_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Humidity"
+            },
+            "name": "walkin_fridge_humidity",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Door Open Count"
+            },
+            "name": "walkin_fridge_door_open_count",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Door Ajar"
+            },
+            "name": "walkin_fridge_door_ajar",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Fridge Compressor Health"
+            },
+            "name": "walkin_fridge_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "WalkinFreezerInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:WalkinFreezerInterface:1",
+        "@type": "Interface",
+        "displayName": "WalkinFreezer",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Freezer Temperature"
+            },
+            "name": "walkin_freezer_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Freezer Humidity"
+            },
+            "name": "walkin_freezer_humidity",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Freezer Door Open Count"
+            },
+            "name": "walkin_freezer_door_open_count",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Freezer Door Ajar"
+            },
+            "name": "walkin_freezer_door_ajar",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Walkin Freezer Compressor Health"
+            },
+            "name": "walkin_freezer_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "FryerInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:FryerInterface:1",
+        "@type": "Interface",
+        "displayName": "Fryer",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Fryer Temperature"
+            },
+            "name": "fryer_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Fryer Oil Quality"
+            },
+            "name": "fryer_oil_quality",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Fryer Heater Health"
+            },
+            "name": "fryer_heater_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "StandingFridgeInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:StandingFridgeInterface:1",
+        "@type": "Interface",
+        "displayName": "StandingFridge",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Temperature"
+            },
+            "name": "standing_fridge_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Humidity"
+            },
+            "name": "standing_fridge_humidity",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Door Open Count"
+            },
+            "name": "standing_fridge_door_open_count",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Door Ajar"
+            },
+            "name": "standing_fridge_door_ajar",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Compressor Health"
+            },
+            "name": "standing_fridge_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "StandingFreezerInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:StandingFreezerInterface:1",
+        "@type": "Interface",
+        "displayName": "StandingFreezer",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Freezer Temperature"
+            },
+            "name": "standing_freezer_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Freezer Humidity"
+            },
+            "name": "standing_freezer_humidity",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Freezer Door Open Count"
+            },
+            "name": "standing_freezer_door_open_count",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Freezer Door Ajar"
+            },
+            "name": "standing_freezer_door_ajar",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Freezer Compressor Health"
+            },
+            "name": "standing_freezer_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "ColdTableInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:ColdTableInterface:1",
+        "@type": "Interface",
+        "displayName": "ColdTable",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Cold Table Temperature"
+            },
+            "name": "cold_table_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Cold Table Compressor Health"
+            },
+            "name": "cold_table_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "InterfaceInstance",
+      "name": "DishwasherInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:DishwasherInterface:1",
+        "@type": "Interface",
+        "displayName": "Dishwasher",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Temperature"
+            },
+            "name": "dishwasher_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Wash Cycles"
+            },
+            "name": "dishwasher_wash_cycles",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Motor Health"
+            },
+            "name": "dishwasher_motor_health",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Dishwasher Heating Element Health"
+            },
+            "name": "dishwasher_heating_element_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

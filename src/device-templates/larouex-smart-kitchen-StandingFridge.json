@@ -1,0 +1,62 @@
+{
+  "@id": "urn:LarouexSmartKitchen:StandingFridge:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:StandingFridge:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "StandingFridgeInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:StandingFridgeInterface:1",
+        "@type": "Interface",
+        "displayName": "StandingFridge",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Temperature"
+            },
+            "name": "standing_fridge_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Humidity"
+            },
+            "name": "standing_fridge_humidity",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Door Open Count"
+            },
+            "name": "standing_fridge_door_open_count",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Door Ajar"
+            },
+            "name": "standing_fridge_door_ajar",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Standing Fridge Compressor Health"
+            },
+            "name": "standing_fridge_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

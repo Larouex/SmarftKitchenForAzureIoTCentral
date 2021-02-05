@@ -1,0 +1,46 @@
+{
+  "@id": "urn:LarouexSmartKitchen:Fryer:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:Fryer:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "FryerInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:FryerInterface:1",
+        "@type": "Interface",
+        "displayName": "Fryer",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Fryer Temperature"
+            },
+            "name": "fryer_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Fryer Oil Quality"
+            },
+            "name": "fryer_oil_quality",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Fryer Heater Health"
+            },
+            "name": "fryer_heater_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

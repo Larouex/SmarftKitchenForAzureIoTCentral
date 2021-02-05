@@ -1,0 +1,46 @@
+{
+  "@id": "urn:LarouexSmartKitchen:HVAC:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:HVAC:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "HVACInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:HVACInterface:1",
+        "@type": "Interface",
+        "displayName": "HVAC",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "HVAC Airflow Temperature"
+            },
+            "name": "hvac_airflow_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "HVAC Airflow CFM"
+            },
+            "name": "hvac_cfm_airflow",
+            "schema": "integer"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "HVAC Main Motor RPM"
+            },
+            "name": "hvac_rpm_mainmotor",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

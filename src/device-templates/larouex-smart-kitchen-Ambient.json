@@ -1,0 +1,38 @@
+{
+  "@id": "urn:LarouexSmartKitchen:Ambient:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:Ambient:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "AmbientInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:AmbientInterface:1",
+        "@type": "Interface",
+        "displayName": "Ambient",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Outside Temperature"
+            },
+            "name": "outside_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Outside Humidity"
+            },
+            "name": "outside_humidity",
+            "schema": "float"
+          }
+        ]
+      }
+    }
+  ]
+}

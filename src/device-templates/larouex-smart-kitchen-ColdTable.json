@@ -1,0 +1,38 @@
+{
+  "@id": "urn:LarouexSmartKitchen:ColdTable:1",
+  "@type": "CapabilityModel",
+  "displayName": "urn:LarouexSmartKitchen:ColdTable:1",
+  "description": "Larouex Smart Kitchen LLC. Advanced Automation and Monitoring of Commercial Kitchens.",
+  "@context": [
+    "http://azureiot.com/v1/contexts/IoTModel.json"
+  ],
+  "implements": [
+    {
+      "@type": "InterfaceInstance",
+      "name": "ColdTableInterface",
+      "schema": {
+        "@id": "urn:larouexsmartkitchen:ColdTableInterface:1",
+        "@type": "Interface",
+        "displayName": "ColdTable",
+        "contents": [
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Cold Table Temperature"
+            },
+            "name": "cold_table_temperature",
+            "schema": "float"
+          },
+          {
+            "@type": "Telemetry",
+            "displayName": {
+              "en": "Cold Table Compressor Health"
+            },
+            "name": "cold_table_compressor_health",
+            "schema": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}

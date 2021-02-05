@@ -1,0 +1,17 @@
+# =============================================================================
+# `requirements.txt` installs all dependant packages
+# =============================================================================
+asyncio
+asyncua
+dataclasses
+cryptography
+argparse
+pypubsub
+kwargs
+prettyprint
+azure.iot.device
+azure.iot.hub
+azure.identity
+azure.keyvault.certificates
+azure.keyvault.secrets
+azure.keyvault.keys
