@@ -1,5 +1,5 @@
 # Fryer - Smart Kitchen OPC-UA Integration with Azure IoT Central
-![alt text](./Assets/commercial-fryer-header.png "Fryer")
+![alt text](../Assets/commercial-fryer-header.png "Fryer")
 
 This is a detailed overview of the following...
 

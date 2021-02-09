@@ -1,5 +1,5 @@
 # Dishwasher - Smart Kitchen OPC-UA Integration with Azure IoT Central
-![alt text](./Assets/commercial-dishwasher.png "Dishwasher")
+![alt text](../Assets/commercial-dishwasher.png "Dishwasher")
 
 This is a detailed overview of the following...
 

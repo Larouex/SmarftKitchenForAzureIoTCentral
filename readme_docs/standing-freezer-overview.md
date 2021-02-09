@@ -1,5 +1,5 @@
 # Standing Freezer - Smart Kitchen OPC-UA Integration with Azure IoT Central
-![alt text](./Assets/commercial-standing-freezer-header.png "Standing Freezer")
+![alt text](../Assets/commercial-standing-freezer-header.png "Standing Freezer")
 
 This is a detailed overview of the following...
 

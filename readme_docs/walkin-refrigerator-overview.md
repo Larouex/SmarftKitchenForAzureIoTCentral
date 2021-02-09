@@ -1,5 +1,5 @@
 # Walk In Refrigerator - Smart Kitchen OPC-UA Integration with Azure IoT Central
-![alt text](./Assets/commercial-walkin-fridge-header.png "Walk In Refrigerator")
+![alt text](../Assets/commercial-walkin-fridge-header.png "Walk In Refrigerator")
 
 This is a detailed overview of the following...
 

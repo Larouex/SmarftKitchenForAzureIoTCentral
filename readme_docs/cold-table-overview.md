@@ -1,5 +1,5 @@
 # Cold Table - Smart Kitchen OPC-UA Integration with Azure IoT Central
-![alt text](./Assets/commercial-cold-table.png "Cold Table")
+![alt text](../Assets/commercial-cold-table.png "Cold Table")
 
 This is a detailed overview of the following...
 

@@ -3,8 +3,10 @@ The Smart Kitchen For Azure IoT Central "Scenario" is a standalone project that 
 ## Project Overview
 
 * <b>Powerful Emulation</b> - Dynamic Configuration of Devices, Nodes and Variables allow you to emulate complex "Digital Twin" topologies. In this project we are working with instances of appliances in a commercial kitchen.
-* <b>Azure IoT Central SaaS Integration</b> - Azure IoT Central is our Software as a Service (SaaS) 'Application Platform' that provides telemetry, device management and rich data visualizations. That is just a small part of what it can do. We want to provide you with a way to understand and leverage these features with little coding, some configuration and tons of power!
+* <b>Azure IoT Central SaaS Integration</b> - Azure IoT Central is our Software as a Service (SaaS) 'Application Platform' that provides telemetry, device management and rich data visualizations. That is just a small part of what it can do. We want to provide you with a way to understand and leverage these features with smart approaches to the coding, thoughtful configuration and big benefits from the application platform.
 * <b>OPC-UA Emulation</b> - The project provides an OPC-UA compliant server that models the address space, nodes and variables of the world of OPC-UA. There is a "Transparent Gateway" implemented that provides "Protocol Translation" and maps telmetry to the modeling used in Azure IoT Central called "Digital Twins Definition Language" (DTDL).
+* <b>Device Fleet Simulation</b> - We provide the ability to simulate devices, assets and capabilities by supoorting the creation of a small device fleet.
+* <b>Fault Injection</b> - Introductory guidance on fleet management routines for software updates, debugging and tracing. Through configuration you can inject failues into the mix to see how to bake in some resilience and eventual consistency to your IoT fleet.
 
 ## Project Capabilities
 The capabilities of this project are defined by the various project lifecycle that you configure and prepare your Device and solution on the Azure IoT Central Application platform.
