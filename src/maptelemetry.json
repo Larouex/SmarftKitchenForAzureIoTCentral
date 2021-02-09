@@ -1,11 +1,11 @@
 {
   "NameSpace": "smart-kitchen-server",
-  "Created": "2021-02-04 20:36:24.554905",
+  "Created": "2021-02-05 13:14:10.510053",
   "Devices": [
     {
       "Name": "larouex-smart-kitchen-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:23.037535",
+      "ConnectedDateTime": "2021-02-05 13:21:19.905609",
       "NodeId": "ns=2;i=1",
       "DeviceType": "Twins",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Server:1",
@@ -669,7 +669,7 @@
     {
       "Name": "HVAC001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:23.528463",
+      "ConnectedDateTime": "2021-02-05 13:21:20.284456",
       "NodeId": "ns=4;i=1",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
@@ -738,7 +738,7 @@
     {
       "Name": "WalkinFridge001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:24.003198",
+      "ConnectedDateTime": "2021-02-05 13:21:20.626553",
       "NodeId": "ns=4;i=5",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFridge:1",
@@ -841,7 +841,7 @@
     {
       "Name": "WalkinFreezer001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:24.573794",
+      "ConnectedDateTime": "2021-02-05 13:21:20.947442",
       "NodeId": "ns=4;i=11",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFreezer:1",
@@ -944,7 +944,7 @@
     {
       "Name": "Fryer001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:25.081038",
+      "ConnectedDateTime": "2021-02-05 13:21:21.247572",
       "NodeId": "ns=4;i=17",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Fryer:1",
@@ -1018,7 +1018,7 @@
     {
       "Name": "StandingFridge001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:25.557724",
+      "ConnectedDateTime": "2021-02-05 13:21:21.604564",
       "NodeId": "ns=4;i=21",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFridge:1",
@@ -1121,7 +1121,7 @@
     {
       "Name": "StandingFreezer001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:25.962456",
+      "ConnectedDateTime": "2021-02-05 13:21:21.905592",
       "NodeId": "ns=4;i=27",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFreezer:1",
@@ -1224,7 +1224,7 @@
     {
       "Name": "ColdTable001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:26.413788",
+      "ConnectedDateTime": "2021-02-05 13:21:22.346644",
       "NodeId": "ns=4;i=33",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:ColdTable:1",
@@ -1276,7 +1276,7 @@
     {
       "Name": "Dishwasher001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:26.858166",
+      "ConnectedDateTime": "2021-02-05 13:21:22.771431",
       "NodeId": "ns=4;i=36",
       "DeviceType": "Gateways",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Dishwasher:1",
@@ -1362,7 +1362,7 @@
     {
       "Name": "larouex-smart-kitchen-HVAC-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:27.409200",
+      "ConnectedDateTime": "2021-02-05 13:21:23.192081",
       "NodeId": "ns=4;i=41",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
@@ -1431,7 +1431,7 @@
     {
       "Name": "larouex-smart-kitchen-HVAC-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:28.016575",
+      "ConnectedDateTime": "2021-02-05 13:21:23.523169",
       "NodeId": "ns=4;i=45",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
@@ -1500,7 +1500,7 @@
     {
       "Name": "larouex-smart-kitchen-HVAC-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:28.461074",
+      "ConnectedDateTime": "2021-02-05 13:21:23.981779",
       "NodeId": "ns=4;i=49",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
@@ -1569,7 +1569,7 @@
     {
       "Name": "larouex-smart-kitchen-HVAC-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:29.086831",
+      "ConnectedDateTime": "2021-02-05 13:21:24.405634",
       "NodeId": "ns=4;i=53",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
@@ -1638,7 +1638,7 @@
     {
       "Name": "larouex-smart-kitchen-HVAC-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:32.448630",
+      "ConnectedDateTime": "2021-02-05 13:21:24.768641",
       "NodeId": "ns=4;i=57",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:HVAC:1",
@@ -1707,7 +1707,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFridge-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:33.001093",
+      "ConnectedDateTime": "2021-02-05 13:21:25.218064",
       "NodeId": "ns=4;i=61",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFridge:1",
@@ -1810,7 +1810,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFridge-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:33.582044",
+      "ConnectedDateTime": "2021-02-05 13:21:25.557478",
       "NodeId": "ns=4;i=67",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFridge:1",
@@ -1913,7 +1913,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFridge-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:34.002395",
+      "ConnectedDateTime": "2021-02-05 13:21:25.897608",
       "NodeId": "ns=4;i=73",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFridge:1",
@@ -2016,7 +2016,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFridge-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:34.469147",
+      "ConnectedDateTime": "2021-02-05 13:21:26.254558",
       "NodeId": "ns=4;i=79",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFridge:1",
@@ -2119,7 +2119,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFridge-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:34.884051",
+      "ConnectedDateTime": "2021-02-05 13:21:26.615326",
       "NodeId": "ns=4;i=85",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFridge:1",
@@ -2222,7 +2222,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFreezer-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:35.215166",
+      "ConnectedDateTime": "2021-02-05 13:21:26.960485",
       "NodeId": "ns=4;i=91",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFreezer:1",
@@ -2325,7 +2325,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFreezer-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:35.573209",
+      "ConnectedDateTime": "2021-02-05 13:21:27.321370",
       "NodeId": "ns=4;i=97",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFreezer:1",
@@ -2428,7 +2428,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFreezer-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:35.954188",
+      "ConnectedDateTime": "2021-02-05 13:21:27.710780",
       "NodeId": "ns=4;i=103",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFreezer:1",
@@ -2531,7 +2531,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFreezer-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:36.434916",
+      "ConnectedDateTime": "2021-02-05 13:21:28.167271",
       "NodeId": "ns=4;i=109",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFreezer:1",
@@ -2634,7 +2634,7 @@
     {
       "Name": "larouex-smart-kitchen-WalkinFreezer-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:36.972490",
+      "ConnectedDateTime": "2021-02-05 13:21:28.681694",
       "NodeId": "ns=4;i=115",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:WalkinFreezer:1",
@@ -2737,7 +2737,7 @@
     {
       "Name": "larouex-smart-kitchen-Fryer-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:37.384637",
+      "ConnectedDateTime": "2021-02-05 13:21:29.023486",
       "NodeId": "ns=4;i=121",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Fryer:1",
@@ -2811,7 +2811,7 @@
     {
       "Name": "larouex-smart-kitchen-Fryer-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:37.699328",
+      "ConnectedDateTime": "2021-02-05 13:21:29.348460",
       "NodeId": "ns=4;i=125",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Fryer:1",
@@ -2885,7 +2885,7 @@
     {
       "Name": "larouex-smart-kitchen-Fryer-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:38.251851",
+      "ConnectedDateTime": "2021-02-05 13:21:29.711325",
       "NodeId": "ns=4;i=129",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Fryer:1",
@@ -2959,7 +2959,7 @@
     {
       "Name": "larouex-smart-kitchen-Fryer-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:38.780415",
+      "ConnectedDateTime": "2021-02-05 13:21:30.056521",
       "NodeId": "ns=4;i=133",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Fryer:1",
@@ -3033,7 +3033,7 @@
     {
       "Name": "larouex-smart-kitchen-Fryer-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:39.613309",
+      "ConnectedDateTime": "2021-02-05 13:21:30.396830",
       "NodeId": "ns=4;i=137",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Fryer:1",
@@ -3107,7 +3107,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFridge-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:40.350606",
+      "ConnectedDateTime": "2021-02-05 13:21:30.754288",
       "NodeId": "ns=4;i=141",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFridge:1",
@@ -3210,7 +3210,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFridge-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:40.688731",
+      "ConnectedDateTime": "2021-02-05 13:21:31.118790",
       "NodeId": "ns=4;i=147",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFridge:1",
@@ -3313,7 +3313,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFridge-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:41.016824",
+      "ConnectedDateTime": "2021-02-05 13:21:31.570404",
       "NodeId": "ns=4;i=153",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFridge:1",
@@ -3416,7 +3416,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFridge-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:41.503522",
+      "ConnectedDateTime": "2021-02-05 13:21:31.920544",
       "NodeId": "ns=4;i=159",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFridge:1",
@@ -3519,7 +3519,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFridge-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:41.900461",
+      "ConnectedDateTime": "2021-02-05 13:21:32.308890",
       "NodeId": "ns=4;i=165",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFridge:1",
@@ -3622,7 +3622,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFreezer-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:42.231575",
+      "ConnectedDateTime": "2021-02-05 13:21:32.755315",
       "NodeId": "ns=4;i=171",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFreezer:1",
@@ -3725,7 +3725,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFreezer-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:42.550722",
+      "ConnectedDateTime": "2021-02-05 13:21:33.126657",
       "NodeId": "ns=4;i=177",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFreezer:1",
@@ -3828,7 +3828,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFreezer-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:42.880748",
+      "ConnectedDateTime": "2021-02-05 13:21:33.466852",
       "NodeId": "ns=4;i=183",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFreezer:1",
@@ -3931,7 +3931,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFreezer-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:43.227820",
+      "ConnectedDateTime": "2021-02-05 13:21:33.760326",
       "NodeId": "ns=4;i=189",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFreezer:1",
@@ -4034,7 +4034,7 @@
     {
       "Name": "larouex-smart-kitchen-StandingFreezer-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:43.576888",
+      "ConnectedDateTime": "2021-02-05 13:21:34.231516",
       "NodeId": "ns=4;i=195",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:StandingFreezer:1",
@@ -4137,7 +4137,7 @@
     {
       "Name": "larouex-smart-kitchen-ColdTable-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:43.943443",
+      "ConnectedDateTime": "2021-02-05 13:21:34.711556",
       "NodeId": "ns=4;i=201",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:ColdTable:1",
@@ -4189,7 +4189,7 @@
     {
       "Name": "larouex-smart-kitchen-ColdTable-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:44.308994",
+      "ConnectedDateTime": "2021-02-05 13:21:35.052878",
       "NodeId": "ns=4;i=204",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:ColdTable:1",
@@ -4241,7 +4241,7 @@
     {
       "Name": "larouex-smart-kitchen-ColdTable-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:44.677009",
+      "ConnectedDateTime": "2021-02-05 13:21:35.427740",
       "NodeId": "ns=4;i=207",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:ColdTable:1",
@@ -4293,7 +4293,7 @@
     {
       "Name": "larouex-smart-kitchen-ColdTable-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:45.087444",
+      "ConnectedDateTime": "2021-02-05 13:21:35.787769",
       "NodeId": "ns=4;i=210",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:ColdTable:1",
@@ -4345,7 +4345,7 @@
     {
       "Name": "larouex-smart-kitchen-ColdTable-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:45.514129",
+      "ConnectedDateTime": "2021-02-05 13:21:36.106482",
       "NodeId": "ns=4;i=213",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:ColdTable:1",
@@ -4397,7 +4397,7 @@
     {
       "Name": "larouex-smart-kitchen-Dishwasher-001",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:45.774468",
+      "ConnectedDateTime": "2021-02-05 13:21:36.420477",
       "NodeId": "ns=4;i=216",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Dishwasher:1",
@@ -4483,7 +4483,7 @@
     {
       "Name": "larouex-smart-kitchen-Dishwasher-002",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:46.350924",
+      "ConnectedDateTime": "2021-02-05 13:21:36.704587",
       "NodeId": "ns=4;i=221",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Dishwasher:1",
@@ -4569,7 +4569,7 @@
     {
       "Name": "larouex-smart-kitchen-Dishwasher-003",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:46.733899",
+      "ConnectedDateTime": "2021-02-05 13:21:37.001695",
       "NodeId": "ns=4;i=226",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Dishwasher:1",
@@ -4655,7 +4655,7 @@
     {
       "Name": "larouex-smart-kitchen-Dishwasher-004",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:47.134337",
+      "ConnectedDateTime": "2021-02-05 13:21:37.306597",
       "NodeId": "ns=4;i=231",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Dishwasher:1",
@@ -4741,7 +4741,7 @@
     {
       "Name": "larouex-smart-kitchen-Dishwasher-005",
       "Connected": true,
-      "ConnectedDateTime": "2021-02-04 20:44:47.461966",
+      "ConnectedDateTime": "2021-02-05 13:21:37.732914",
       "NodeId": "ns=4;i=236",
       "DeviceType": "Devices",
       "DeviceCapabilityModelId": "urn:LarouexSmartKitchen:Dishwasher:1",
